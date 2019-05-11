@@ -1,0 +1,14 @@
+{
+  "name": "dualexport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Fernando Serrano <fernandojsg@gmail.com> (http://fernandojsg.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.11.3"
+  }
+}
