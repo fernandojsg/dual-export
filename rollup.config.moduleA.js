@@ -3,6 +3,8 @@ export default {
 	output: [
 		{
 			format: 'umd',
+			extend: true,
+      globals: () => "DUALEXPORT",
 			name: 'DUALEXPORT',
 			file: 'build/moduleA.js',
 			indent: '\t'
